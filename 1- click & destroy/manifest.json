@@ -1,0 +1,18 @@
+{
+
+  "description": "Destroyes the element that was clicked",
+  "manifest_version": 2,
+  "name": "Click & Destroy",
+  "version": "1.0",
+  "homepage_url": "https://gitlab.com/crojas/cross_browser_extensions",
+  "icons": {
+    "48": "icons/skull.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}
