@@ -1,6 +1,6 @@
 {
 
-  "description": "Destroyes the element that was clicked",
+  "description": "Destroys the element that was clicked",
   "manifest_version": 2,
   "name": "Click & Destroy",
   "version": "1.0",
