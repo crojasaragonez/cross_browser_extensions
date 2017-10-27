@@ -1,0 +1,19 @@
+{
+
+  "description": "Adds a timer inside the browser",
+  "manifest_version": 2,
+  "name": "Timer",
+  "version": "1.0",
+  "homepage_url": "http://go-labs.net",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "Timer",
+    "default_popup": "popup/popup.html"
+  }
+}

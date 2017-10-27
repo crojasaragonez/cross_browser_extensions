@@ -1,0 +1,29 @@
+.container {
+    max-width: 300px;
+    text-align: center;
+}
+
+.container h2 {
+    margin: 0px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container button {
+    flex-grow: 1;
+}
+
+
+#timer-input {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: #C8F8FD;
+    font-size: large;
+    font-weight: bold;
+}
+
